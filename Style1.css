@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+img{
+
+  padding-left: 10px;
+  width: 300px;
+  border-radius: 1px 1px 1px 250px;
+  background-color: #008AAA;
+  float: right;
+}
+
+.container{
+  padding: 10px 10%;
+
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+
+}
+
+nav ul li i,a:hover{
+  color: #D1884F;
+}
+
+
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;
+
+}
+
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+  color: #008AAA;
+}
+
+.header-text h3{
+  font-size: 20px;
+  margin-top: 10px;
+  color: #3BBADB;
+}
+
+.header-text p{
+  font-size: 16px;
+}
+
+.header-text a{
+  font-size: 16px;
+}
+
+.header-text span{
+    color: #D1884F;
+}
+
+.btn{
+  display: inline-block;
+  margin: 30px 80px 150px 150px;
+  width: fit-content;
+  border: 2px solid ;
+  padding: 14px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #008AAA;
+  color: white;
+}
+
+
+.btn1{
+  display: inline-block;
+  margin: 30px 150px 150px 50px;
+  width: fit-content;
+  border: 1px solid ;
+  padding: 14px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #008AAA;
+
+}
+
+.btn a{
+  color: white;
+  font-size: large;
+}
+
+
